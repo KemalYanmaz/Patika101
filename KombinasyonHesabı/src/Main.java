@@ -11,9 +11,10 @@ public class Main {
         int _n=n;
         int _r=r;
         System.out.println("C(n,r) = n!/(r!*(n-r)!): ");
-        for(int i=n;i!=1;i--){
+        for(int i=n;i>0;i--){
             _n*=i;
         }
+        System.out.println(_n);
         for(int i=r;i!=1;i--){
             _r*=i;
         }
