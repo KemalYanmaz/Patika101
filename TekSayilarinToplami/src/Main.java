@@ -12,12 +12,13 @@ public class Main {
             System.out.println("Enter number(To exit enter oddone");
             sayi=scanner.nextInt();
         }
+        int total = 0;
 
         for(int number: numbers){
             if(number%4==0){
-                System.out.print(number+",");
+                total+= number;
             }
         }
-        System.out.println();
+        System.out.println("Total is :" +total);
     }
 }
