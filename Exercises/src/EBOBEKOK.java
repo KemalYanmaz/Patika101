@@ -10,7 +10,7 @@ public class EBOBEKOK {
         System.out.print("İkinci sayıyı giriniz: ");
         number2 = scanner.nextInt();
 
-      
+
         for(int i=((number1>number2)?number1:number2);i>=1;i--){
             if(number1%i==0 && number2%i==0){
                 ebob=i;
