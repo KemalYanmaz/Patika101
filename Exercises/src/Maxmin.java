@@ -13,10 +13,7 @@ public class Maxmin {
         for(int i=1;i<=adet;i++){
             System.out.print(i+"'inci sayıyı giriniz: ");
             number = scanner.nextInt();
-            if(i==1){
-                max = number;
-                min = number;
-            }
+
             if(number>max){
                 max = number;
             }
