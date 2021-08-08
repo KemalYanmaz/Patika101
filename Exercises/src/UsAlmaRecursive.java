@@ -1,4 +1,4 @@
-public class UsAlma {
+public class UsAlmaRecursive {
     public static void main(String[] args) {
         System.out.println(usAl(3,5));
     }
